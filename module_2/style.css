@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	 
+}
+body{
+	font-size: 20px;
+	font-family: Helvetica;
+}
+h1{
+	font-size:  175%;
+	color: #dddddd;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.section{
+	position: relative;
+	color: white;
+	background-color: #dddddd;
+	background-image: url('unnamed.jpg');
+	
+	border: 1px solid black;
+	margin: 10px;
+	
+	
+	
+	
+
+}
+h2{
+	float: right;
+	background-color: black;
+	font-size: 125%;
+	
+	margin-bottom: 2px;
+	padding: none;
+	border: 1px solid black;
+}
+p{
+	color: black;
+	clear: right;
+	width: 90%;
+    padding: 3px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+	
+}
+.row{
+	
+	width: 100%;
+	
+}
+
+
+
+@media (min-width: 992px ) {
+.sectionlg1, .sectionlg2, .sectionlg3 {
+	
+	
+	float: left;
+	
+
+}
+
+.sectionlg1{
+	margin-left: 10px;
+	width:  33.33%;
+}
+.sectionlg2{
+	width: 30.33%;
+}
+.sectionlg3{
+	width: 33.33%;
+}
+}
+@media (min-width: 768px ) and (max-width:991px ) {
+	.sectionmd1, .sectionmd2, .sectionmd3 {
+	
+	float: left;
+	
+}
+.sectionmd1{
+	width: 50%
+}
+.sectionmd2{
+	width: 50%;
+
+}
+.sectionmd3{
+	width: 100%;
+	
+}
+@media (max-width: 767px) {
+
+}
